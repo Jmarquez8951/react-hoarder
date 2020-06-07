@@ -1,0 +1,92 @@
+{
+  "hoard": {
+    "stuff1": {
+      "imgUrl": "https://s26162.pcdn.co/wp-content/uploads/2019/07/used-books-store-2.jpg",
+      "item": "Books",
+      "quantity": 200,
+      "color": "red",
+      "description": "A lot of books that I bought to supposedly read, but never did.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff2": {
+      "imgUrl": "https://www.expensewire.com/sites/expensewire/files/receipts.jpg",
+      "item": "Receipts",
+      "quantity": 2000,
+      "color": "white",
+      "description": "Receipts from all the times I went and bought something.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff3": {
+      "imgUrl": "https://cdn.shopify.com/s/files/1/0839/2139/products/5D4C679F-1DF9-4C7B-AB1F-40B7B2853B7C-2621-0000017CC6A12B02_tmp_1440x.jpg?v=1542458417",
+      "item": "Cards",
+      "quantity": 5000,
+      "color": "black",
+      "description": "Multiple decks of cards from all around the globe.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff4": {
+      "imgUrl": "https://i.guim.co.uk/img/media/20491572b80293361199ca2fc95e49dfd85e1f42/0_236_5157_3094/master/5157.jpg?width=700&quality=85&auto=format&fit=max&s=75467b37e566112a23646eeb8cbc9a26",
+      "item": "Pills",
+      "quantity": 300,
+      "color": "white",
+      "description": "A ton of pills from pain relievers to weight loss.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff5": {
+      "imgUrl": "https://dmzn2b8hkpq8b.cloudfront.net/images/products/515x515/S495193.jpg",
+      "item": "Pencils",
+      "quantity": 1000,
+      "color": "yellow",
+      "description": "A box filled to the brim of pencils just in case.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff6": {
+      "imgUrl": "https://www.randomlists.com/img/things/usb_drive.webp",
+      "item": "USB drives",
+      "quantity": 40,
+      "color": "black",
+      "description": "A bunch of USB drives with tons of sensitive information.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff7": {
+      "imgUrl": "https://www.randomlists.com/img/things/glow_stick.webp",
+      "item": "Glow sticks",
+      "quantity": 900,
+      "color": "neon",
+      "description": "You never know when there will be a random rave going on.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff8": {
+      "imgUrl": "https://www.randomlists.com/img/things/sponge.webp",
+      "item": "Sponges",
+      "quantity": 500,
+      "color": "blue",
+      "description": "I've seen a show about these things.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff9": {
+      "imgUrl": "https://www.randomlists.com/img/things/air_freshener.webp",
+      "item": "Air fresheners",
+      "quantity": 300,
+      "color": "green",
+      "description": "My car needs to smell nice.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff10": {
+      "imgUrl": "https://www.randomlists.com/img/things/toothbrush.webp",
+      "item": "Toothbrush",
+      "quantity": 350,
+      "color": "blue",
+      "description": "Old and new brushes in a box.",
+      "uid": "5PsjBb21FKcBcJQZjQ4o6uBaqiv1"
+    },
+    "stuff11": {
+      "imgUrl": "https://www.liberaldictionary.com/wp-content/uploads/2019/02/cds-4473.jpg",
+      "item": "CDs",
+      "quantity": 3000,
+      "color": "grey",
+      "description": "A bunch of CDs from the 90s.",
+      "uid": "Test"
+    }
+  }
+}
