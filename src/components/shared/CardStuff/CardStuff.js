@@ -15,11 +15,12 @@ class CardStuff extends React.Component {
     const editLink = `/edit/${stuff.id}`;
     return (
       <div className="CardStuff m-3 col-3 d-flex">
-        <div className="card">
+        <div className="card container-fluid">
           <div className="card-body">
             <h5 className="card-title">{stuff.item}</h5>
-            <Link className="btn btn-outline-primary" to={singleLink}><i className="fas fa-binoculars"></i></Link>
-            <Link className="btn btn-outline-warning" to={editLink}><i class="fas fa-pen"></i></Link>
+            <img src={stuff.imgUrl} class="card-img-top" alt="thing"/>
+            <Link className="btn btn-primary m-1" to={singleLink}><i className="fas fa-binoculars"></i></Link>
+            <Link className="btn btn-warning m-1" to={editLink}><i class="fas fa-pen"></i></Link>
             <p className="card-text">{stuff.description}</p>
           </div>
         </div>
