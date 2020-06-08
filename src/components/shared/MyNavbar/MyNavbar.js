@@ -47,7 +47,7 @@ class MyNavbar extends React.Component {
               <NavLink tag={RRNavlink} to='/home'>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={RRNavlink} to='/my-stuff'>My Stuff</NavLink>
+              <NavLink tag={RRNavlink} to='/stuff'>My Stuff</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={RRNavlink} to='/new'>New</NavLink>

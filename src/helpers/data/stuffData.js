@@ -4,7 +4,7 @@ import firebaseConfig from '../apiKeys.json';
 const baseUrl = firebaseConfig.firebaseKeys.databaseURL;
 
 const getStuffByUid = (uid) => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/hoard.json`)
+  axios.get(`${baseUrl}/hoard.json?orderBy="uid"&equalTo="${uid}"`)
     .then((response) => {
       const fbStuff = response.data;
       const stuff = [];
