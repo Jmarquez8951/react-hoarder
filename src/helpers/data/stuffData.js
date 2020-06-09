@@ -23,4 +23,11 @@ const getSingleStuff = (stuffId) => axios.get(`${baseUrl}/hoard/${stuffId}.json`
 
 const postStuff = (newStuff) => axios.post(`${baseUrl}/hoard.json`, newStuff);
 
-export default { getStuffByUid, getSingleStuff, postStuff };
+const deleteStuff = (stuffId) => axios.delete(`${baseUrl}/hoard/${stuffId}.json`);
+
+export default {
+  getStuffByUid,
+  getSingleStuff,
+  postStuff,
+  deleteStuff,
+};
