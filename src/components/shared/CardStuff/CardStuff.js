@@ -18,9 +18,9 @@ class CardStuff extends React.Component {
         <div className="card container-fluid">
           <div className="card-body">
             <h5 className="card-title">{stuff.item}</h5>
-            <img src={stuff.imgUrl} class="card-img-top" alt="thing"/>
+            <img src={stuff.imgUrl} className="card-img-top" alt="thing"/>
             <Link className="btn btn-primary m-1" to={singleLink}><i className="fas fa-binoculars"></i></Link>
-            <Link className="btn btn-warning m-1" to={editLink}><i class="fas fa-pen"></i></Link>
+            <Link className="btn btn-warning m-1" to={editLink}><i className="fas fa-pen"></i></Link>
             <p className="card-text">{stuff.description}</p>
           </div>
         </div>

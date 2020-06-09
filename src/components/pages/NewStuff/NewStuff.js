@@ -2,6 +2,7 @@ import React from 'react';
 import './NewStuff.scss';
 
 import authData from '../../../helpers/data/authData';
+import stuffData from '../../../helpers/data/stuffData';
 
 class NewStuff extends React.Component {
   state = {
@@ -49,12 +50,14 @@ class NewStuff extends React.Component {
     const newStuff = {
       imgUrl: stuffImgUrl,
       item: stuffItem,
-      quantity: stuffQuantity,
+      quantity: stuffQuantity * 1,
       color: stuffColor,
       description: stuffDescription,
       uid: authData.getUid(),
     };
-    console.log('new stuff', newStuff);
+    stuffData.postStuff(newStuff)
+      .then(() => this.props.history.push('/my-stuff'))
+      .catch((err) => console.error('could not save new stuff', err));
   }
 
   render() {
