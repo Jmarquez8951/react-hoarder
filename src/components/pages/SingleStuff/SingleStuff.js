@@ -14,16 +14,24 @@ class SingleStuff extends React.Component {
       .catch((err) => console.error('could not get single stuff', err));
   }
 
+  deleteStuff = () => {
+    const { stuffId } = this.props.match.params;
+    stuffData.deleteStuff(stuffId)
+      .then(() => this.props.history.push('/my-stuff'))
+      .catch((err) => console.error('could not delete stuff', err));
+  }
+
   render() {
     const { stuff } = this.state;
     return (
       <div className="SingleStuff mx-auto p-4 m-4" style={{ backgroundColor: stuff.color }}>
-        <div class="card" >
-          <img src={stuff.imgUrl} class="card-img-top" alt="..."/>
-          <div class="card-body">
+        <div className="card" >
+          <img src={stuff.imgUrl} className="card-img-top" alt="..."/>
+          <div className="card-body">
             <h1>{stuff.item}</h1>
-            <p class="card-text">{stuff.quantity}</p>
-            <p class="card-text">{stuff.description}</p>
+            <p className="card-text">{stuff.quantity}</p>
+            <p className="card-text">{stuff.description}</p>
+            <button className="btn btn-danger" onClick={this.deleteStuff}><i className="fas fa-trash-alt"></i></button>
           </div>
         </div>
       </div>
