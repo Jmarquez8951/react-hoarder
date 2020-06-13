@@ -1,5 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './SingleStuff.scss';
+
 import stuffData from '../../../helpers/data/stuffData';
 
 class SingleStuff extends React.Component {
@@ -23,6 +26,8 @@ class SingleStuff extends React.Component {
 
   render() {
     const { stuff } = this.state;
+    const { stuffId } = this.props.match.params;
+    const editLink = `/edit/${stuffId}`;
     return (
       <div className="SingleStuff mx-auto p-4 m-4" style={{ backgroundColor: stuff.color }}>
         <div className="card" >
@@ -31,7 +36,8 @@ class SingleStuff extends React.Component {
             <h1>{stuff.item}</h1>
             <p className="card-text">{stuff.quantity}</p>
             <p className="card-text">{stuff.description}</p>
-            <button className="btn btn-danger" onClick={this.deleteStuff}><i className="fas fa-trash-alt"></i></button>
+            <button className="btn btn-danger m-1" onClick={this.deleteStuff}><i className="fas fa-trash-alt"></i></button>
+            <Link className="btn btn-warning m-1" to={editLink}><i className="fas fa-pen"></i></Link>
           </div>
         </div>
       </div>
