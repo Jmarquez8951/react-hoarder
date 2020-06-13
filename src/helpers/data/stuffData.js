@@ -25,9 +25,12 @@ const postStuff = (newStuff) => axios.post(`${baseUrl}/hoard.json`, newStuff);
 
 const deleteStuff = (stuffId) => axios.delete(`${baseUrl}/hoard/${stuffId}.json`);
 
+const putStuff = (stuffId, updatedStuff) => axios.put(`${baseUrl}/hoard/${stuffId}.json`, updatedStuff);
+
 export default {
   getStuffByUid,
   getSingleStuff,
   postStuff,
   deleteStuff,
+  putStuff,
 };
